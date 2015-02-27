@@ -1,3 +1,5 @@
+There is nothing different to this package than the one it was forked from apart from supporting CBC ciphers for the SSH connection.
+
 sftp
 ----
 
