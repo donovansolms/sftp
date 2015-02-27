@@ -10,7 +10,9 @@ import (
 
 	"github.com/kr/fs"
 
-	"golang.org/x/crypto/ssh"
+	//"golang.org/x/crypto/ssh"
+	// Using a different package that support CBC ciphers
+	"github.com/ScriptRock/crypto/ssh"
 )
 
 // New creates a new SFTP client on conn.
